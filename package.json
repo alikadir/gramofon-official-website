@@ -5,7 +5,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next build && next export",
+    "serve": "cd out && serve"
+  },
+  "prettier": {
+    "jsxBracketSameLine": true,
+    "singleQuote": true,
+    "printWidth": 110
   },
   "dependencies": {
     "next": "10.0.8",
