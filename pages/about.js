@@ -6,6 +6,7 @@ function About(props) {
       <Head>
         <title>Gramofon - About</title>
       </Head>
+      <h2>Gramofon</h2>
       <p>
         With a power of 22 years' experience in the automotive industry, we will develop a huge digital
         ecosystem for the automotive industry called Gramofon via modern technology.
