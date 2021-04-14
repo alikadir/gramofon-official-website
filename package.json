@@ -21,5 +21,8 @@
   },
   "devDependencies": {
     "serve": "^11.3.2"
+  },
+   "engines": {
+    "node": ">=15"
   }
 }
