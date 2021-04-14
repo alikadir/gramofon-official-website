@@ -12,7 +12,7 @@ function About(props) {
         ecosystem for the automotive industry called Gramofon via modern technology.
       </p>
       <p>
-        render time: <b>{props.date.toLocaleDateString('tr-TR')}</b>
+        render time: <b>{props.date}</b>
       </p>
       <p>
         render time (utc): <b>{props.dateUtc}</b>
@@ -21,7 +21,7 @@ function About(props) {
   );
 }
 export async function getStaticProps() {
-  return { props: { dateUtc: new Date().toUTCString(), date: new Date().toString() } };
+  return { props: { dateUtc: new Date().toUTCString(), date: new Date().toLocaleDateString('tr-TR') } };
 }
 
 export default About;
