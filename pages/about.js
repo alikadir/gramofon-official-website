@@ -12,7 +12,7 @@ function About(props) {
         ecosystem for the automotive industry called Gramofon via modern technology.
       </p>
       <p>
-        render time: <b>{props.date}</b>
+        render time: <b>{props.date.toLocaleDateString('tr-TR')}</b>
       </p>
       <p>
         render time (utc): <b>{props.dateUtc}</b>
