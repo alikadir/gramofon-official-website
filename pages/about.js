@@ -4,7 +4,7 @@ function About(props) {
   return (
     <div>
       <Head>
-        <title>Gramofon - About</title>
+        <title>Gramofon - About - Test</title>
       </Head>
       <h2>Gramofon</h2>
       <p>
