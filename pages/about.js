@@ -24,7 +24,7 @@ function About(props) {
   );
 }
 export async function getStaticProps() {
-  return { props: { dateUtc: new Date().toUTCString(), date: new Date().toLocaleString('fr-CH', { timeZone: 'Europe/Istanbul' }) } };
+  return { props: { dateUtc: new Date().toUTCString(), date: new Date().toLocaleString('tr-TR', { timeZone: 'Europe/Istanbul' }) } };
 }
 
 export default About;
