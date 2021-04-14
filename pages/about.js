@@ -21,7 +21,7 @@ function About(props) {
   );
 }
 export async function getStaticProps() {
-  return { props: { dateUtc: new Date().toUTCString(), date: new Date().toLocaleString('tr-TR') } };
+  return { props: { dateUtc: new Date().toUTCString(), date: new Date().toLocaleString('ar-EG') } };
 }
 
 export default About;
