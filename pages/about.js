@@ -12,6 +12,9 @@ function About(props) {
         ecosystem for the automotive industry called Gramofon via modern technology.
       </p>
       <p>
+        current time: <b>{new Date().toString()}</b>
+      </p>
+      <p>
         render time: <b>{props.date}</b>
       </p>
       <p>
